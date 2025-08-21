@@ -1,0 +1,16 @@
+gpt4o_client: &gpt4o_client
+    provider: AzureOpenAIChatCompletionClient
+    config:
+      azure_deployment: gpt-4o
+      model: gpt-4o
+      api_version: 2025-01-01-preview
+      azure_endpoint: https://your-resource.openai.azure.com/
+      api_key: ${AZURE_OPENAI_API_KEY}
+      max_retries: 5
+
+orchestrator_client: *gpt4o_client
+coder_client: *gpt4o_client
+web_surfer_client: *gpt4o_client
+file_surfer_client: *gpt4o_client
+action_guard_client: *gpt4o_client
+plan_learning_client: *gpt4o_client
