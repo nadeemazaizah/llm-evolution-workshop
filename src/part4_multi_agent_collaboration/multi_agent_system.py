@@ -78,7 +78,12 @@ travel_coordinator = AssistantAgent(
 )
 
 # Create the multi-agent team
-agents = [travel_coordinator, flight_specialist, weather_specialist, budget_specialist]
+agents = [
+    travel_coordinator,
+    flight_specialist,
+    weather_specialist,
+    budget_specialist,
+]
 team = RoundRobinGroupChat(agents)
 
 
