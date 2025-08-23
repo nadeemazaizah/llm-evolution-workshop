@@ -1,0 +1,129 @@
+{
+    "destinations": [
+        {
+            "destination": "Tokyo, Japan",
+            "best_season": "March-May (cherry blossoms), September-November",
+            "weather_info": "Four distinct seasons, humid summers, mild winters",
+            "top_attractions": [
+                "Senso-ji Temple",
+                "Tokyo Skytree",
+                "Shibuya Crossing",
+                "Imperial Palace",
+                "Tsukiji Outer Market",
+                "Harajuku"
+            ],
+            "local_cuisine": [
+                "Sushi",
+                "Ramen",
+                "Tempura",
+                "Yakitori",
+                "Mochi",
+                "Japanese sake"
+            ],
+            "budget_range": "¥8,000-25,000 per day",
+            "transportation": "JR Pass, subway, walking",
+            "cultural_tips": "Remove shoes indoors, bow greeting, no tipping, quiet on trains",
+            "description": "Tokyo is a vibrant metropolis blending traditional Japanese culture with cutting-edge technology and modern lifestyle."
+        },
+        {
+            "destination": "Paris, France",
+            "best_season": "April-June, September-October",
+            "weather_info": "Mild springs, warm summers, cool winters",
+            "top_attractions": [
+                "Eiffel Tower",
+                "Louvre Museum",
+                "Notre-Dame Cathedral",
+                "Champs-Élysées",
+                "Montmartre",
+                "Seine River Cruise"
+            ],
+            "local_cuisine": [
+                "Croissants",
+                "French onion soup",
+                "Coq au vin",
+                "Crème brûlée",
+                "Escargot",
+                "French wine"
+            ],
+            "budget_range": "€60-200 per day",
+            "transportation": "Metro, buses, walking, bike sharing",
+            "cultural_tips": "Learn basic French phrases, dining etiquette important, tipping 10%",
+            "description": "Paris is the city of lights, known for its art, fashion, gastronomy, and culture with iconic landmarks and romantic atmosphere."
+        },
+        {
+            "destination": "Bali, Indonesia",
+            "best_season": "April-October (dry season)",
+            "weather_info": "Tropical climate, wet and dry seasons",
+            "top_attractions": [
+                "Uluwatu Temple",
+                "Rice Terraces of Jatiluwih",
+                "Mount Batur",
+                "Seminyak Beach",
+                "Ubud Monkey Forest",
+                "Tanah Lot Temple"
+            ],
+            "local_cuisine": [
+                "Nasi Goreng",
+                "Satay",
+                "Rendang",
+                "Gado-gado",
+                "Bebek betutu",
+                "Fresh tropical fruits"
+            ],
+            "budget_range": "$30-100 per day",
+            "transportation": "Scooter rental, private driver, walking",
+            "cultural_tips": "Dress modestly at temples, respect local customs, bargaining is common in markets",
+            "description": "Bali offers stunning beaches, ancient temples, lush rice terraces, and rich Hindu culture with warm hospitality."
+        },
+        {
+            "destination": "New York City, USA",
+            "best_season": "April-June, September-November",
+            "weather_info": "Continental climate, hot summers, cold winters",
+            "top_attractions": [
+                "Statue of Liberty",
+                "Central Park",
+                "Times Square",
+                "9/11 Memorial",
+                "Brooklyn Bridge",
+                "High Line"
+            ],
+            "local_cuisine": [
+                "New York pizza",
+                "Bagels",
+                "Deli sandwiches",
+                "Cheesecake",
+                "Hot dogs",
+                "Craft cocktails"
+            ],
+            "budget_range": "$100-300 per day",
+            "transportation": "Subway, taxi, walking, Uber/Lyft",
+            "cultural_tips": "Tip 18-20%, fast-paced lifestyle, diverse neighborhoods each with unique character",
+            "description": "The Big Apple is a global hub for finance, arts, fashion, and culture with world-famous landmarks and endless entertainment."
+        },
+        {
+            "destination": "London, England",
+            "best_season": "May-September",
+            "weather_info": "Temperate climate, frequent rain, mild temperatures",
+            "top_attractions": [
+                "Big Ben",
+                "Tower of London",
+                "British Museum",
+                "Buckingham Palace",
+                "London Eye",
+                "Hyde Park"
+            ],
+            "local_cuisine": [
+                "Fish and chips",
+                "Sunday roast",
+                "Afternoon tea",
+                "Bangers and mash",
+                "Shepherds pie",
+                "English breakfast"
+            ],
+            "budget_range": "£80-250 per day",
+            "transportation": "Underground (Tube), buses, walking, cycling",
+            "cultural_tips": "Queue politely, pub culture important, tipping 10-15%, mind the gap",
+            "description": "London combines rich history with modern innovation, featuring royal palaces, world-class museums, and vibrant cultural scene."
+        }
+    ]
+}
