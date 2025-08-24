@@ -32,10 +32,16 @@ Before you begin, you'll need:
 
 ### Getting GitHub Models Access
 
-1. Go to [GitHub Models](https://github.com/marketplace/models)
-2. Sign in with your GitHub account
-3. Generate a **Personal Access Token (Classic)** with appropriate permissions
-4. You'll use this token as your `GITHUB_TOKEN` environment variable
+1. Sign in with your GitHub account
+2. Navigate to [Personal Access Tokens](https://github.com/settings/personal-access-tokens)
+3. Select **Fine-grained tokens** tab
+4. Click **"Generate new token"** button
+5. Provide a name for your token
+6. Leave **Repository access** set to **"Public repositories"**
+7. Click **"+ Add permissions"**
+8. Select **"Models"** from the **"Select account permissions"** list
+9. Generate the token and copy it
+10. Use this token as your `GITHUB_TOKEN` environment variable
 
 > **Note**: GitHub Models provides free access to popular LLMs including GPT-4o-mini, Claude, and Llama models.
 
