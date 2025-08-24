@@ -38,8 +38,6 @@ def get_travel_advice(user_query):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_query},
             ],
-            temperature=0.7,
-            max_tokens=400,
         )
 
         return response.choices[0].message.content
@@ -51,9 +49,8 @@ def get_travel_advice(user_query):
 def main():
     """Main function to run the travel planner."""
     # User query - change this to any travel question you want
-    query = "Plan a 5-day trip to Tokyo for first-time visitors"
-
-    print(f"\nQuery: {query}")
+    query = "Plan a trip to Tokyo"
+    print(f"\n🔍 User Query: {query}")
 
     # Get travel advice
     advice = get_travel_advice(query)

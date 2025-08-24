@@ -25,6 +25,7 @@ def search_flights(
 ) -> List[FlightInfo]:
     """
     Search for flights between origin and destination.
+    All the flight prices are in USD.
     This is a mock service - in real implementation, use Amadeus or Skyscanner API.
     """
     try:
@@ -66,19 +67,3 @@ def search_flights(
     except Exception as e:
         print(f"Flight search error: {e}")
         return []
-
-
-def format_flight_results(flights: List[FlightInfo]) -> str:
-    """Format flight search results for display."""
-    if not flights:
-        return "No flights found."
-
-    result = f"Found {len(flights)} flights:\n\n"
-    for i, flight in enumerate(flights, 1):
-        result += f"{i}. {flight.airline}\n"
-        result += f"   {flight.origin} → {flight.destination}\n"
-        result += f"   Date: {flight.departure_date}\n"
-        result += f"   Duration: {flight.duration}, Stops: {flight.stops}\n"
-        result += f"   Price: ${flight.price:.2f}\n\n"
-
-    return result

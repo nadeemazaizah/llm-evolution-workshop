@@ -40,7 +40,11 @@ def get_exchange_rate(from_currency: str, to_currency: str) -> float:
         return 1.0
 
 
-def convert_currency(amount: float, from_currency: str, to_currency: str) -> Dict:
+def convert_currency(
+    amount: float,
+    from_currency: str,
+    to_currency: str,
+) -> Dict:
     """Convert amount from one currency to another."""
     rate = get_exchange_rate(from_currency, to_currency)
     converted_amount = amount * rate
@@ -52,14 +56,3 @@ def convert_currency(amount: float, from_currency: str, to_currency: str) -> Dic
         "exchange_rate": rate,
         "converted_amount": round(converted_amount, 2),
     }
-
-
-def format_currency_conversion(conversion: Dict) -> str:
-    """Format currency conversion for display."""
-    result = f"Currency Conversion:\n"
-    result += f"{conversion['original_amount']} {conversion['from_currency']} = "
-    result += f"{conversion['converted_amount']} {conversion['to_currency']}\n"
-    result += f"Exchange Rate: 1 {conversion['from_currency']} = "
-    result += f"{conversion['exchange_rate']} {conversion['to_currency']}"
-
-    return result

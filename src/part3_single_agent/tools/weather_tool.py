@@ -83,18 +83,3 @@ def get_weather_info(location: str, days: int = 3) -> WeatherInfo:
             wind_speed=10,
             forecast_days=[],
         )
-
-
-def format_weather_report(weather: WeatherInfo) -> str:
-    """Format weather information for display."""
-    report = f"Weather in {weather.location}:\n"
-    report += f"Current: {weather.temperature}°C, {weather.description}\n"
-    report += f"Humidity: {weather.humidity}%, Wind: {weather.wind_speed} km/h\n\n"
-
-    if weather.forecast_days:
-        report += "Forecast:\n"
-        for day in weather.forecast_days:
-            report += f"  {day['date']}: {day['high']}°/{day['low']}° - "
-            report += f"{day['condition']} (Rain: {day['rain_chance']}%)\n"
-
-    return report

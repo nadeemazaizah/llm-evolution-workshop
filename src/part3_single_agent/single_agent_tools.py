@@ -41,7 +41,7 @@ travel_agent = AssistantAgent(
     Use these tools to provide comprehensive, practical travel advice.
     Always be specific with dates, amounts, and locations when using tools.""",
     reflect_on_tool_use=True,
-    model_client_stream=True,  # Enable streaming tokens from the model client.
+    model_client_stream=True,
 )
 
 
@@ -56,5 +56,7 @@ if __name__ == "__main__":
     import asyncio
 
     # query = "what is the weather like in Tokyo in end of August?"
-    query = "flight from NYC to Tokyo on 2025-09-15?"
+    # query = "find flights from New York City (NYC) to Tokyo on 2025-09-15"
+    # query = "how much is 100 USD in JPY?"
+    query = "find flights from New York City (NYC) to Tokyo on 2025-09-15, provide the expected weather in Tokyo around that date, and convert 100 USD to JPY."
     asyncio.run(main(query))
