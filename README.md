@@ -101,7 +101,7 @@ python src/part5_mcp/mcp_integrated_autogen.py
 ## 📚 Workshop Structure
 ## 📚 Workshop Structure
 
-### Part 1: Simple LLM (30 min)
+### Part 1: Simple LLM
 **Goal**: Understand baseline capabilities and limitations
 
 - Basic travel recommendation function using GitHub Models
@@ -118,7 +118,7 @@ def get_travel_advice(user_query):
     )
 ```
 
-### Part 2: RAG Enhancement (45 min)  
+### Part 2: RAG Enhancement 
 **Goal**: Add contextual knowledge and improve responses
 
 - Travel knowledge base with destinations, attractions, cuisine
@@ -133,7 +133,7 @@ relevant_destinations = find_relevant_destinations(user_query, destinations)
 enhanced_response = get_rag_enhanced_advice(user_query)
 ```
 
-### Part 3: Single Agent with Tools (60 min)
+### Part 3: Single Agent with Tools
 **Goal**: Integrate real-time data and external APIs
 
 - Weather information for forecast-aware planning
@@ -151,7 +151,7 @@ agent = AssistantAgent(
 )
 ```
 
-### Part 4: Multi-Agent Collaboration (75 min)
+### Part 4: Multi-Agent Collaboration
 **Goal**: Demonstrate specialization and coordination
 
 **Specialized Agents**:
@@ -167,7 +167,7 @@ team = SelectorGroupChat([flight_agent, budget_agent, coordinator_agent])
 result = await Console(team.run_stream(task="Plan a trip to Tokyo"))
 ```
 
-### Part 5: MCP Integration (60 min)
+### Part 5: MCP Integration
 **Goal**: Enterprise-grade scalability and system integration
 
 **MCP Features**:
